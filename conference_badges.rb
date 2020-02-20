@@ -13,9 +13,10 @@ def batch_badge_creator(arr)
 end
 
 def assign_rooms(arr_of_names)
+  counter = 1 
   arr_of_names.map do |attendee|
+    puts "Hello, #{attendee}"
   end
-  attendees.each do 
   
 end
 
