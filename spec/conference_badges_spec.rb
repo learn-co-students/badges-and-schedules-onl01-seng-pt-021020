@@ -102,7 +102,7 @@ TEXT
         # printed output.
         expect($stdout).to receive(:puts).with(line.chomp)
       end
-      printer(attendees)
+      printer(arr_of_attendees)
     end
 
   end
