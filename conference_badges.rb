@@ -12,7 +12,10 @@ def batch_badge_creator(arr)
   new_arr
 end
 
-def assign_rooms(attendees)
+def assign_rooms(arr_of_names)
+  arr_of_names.map do |attendee|
+  end
+  attendees.each do 
   
 end
 
